@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="200dp"
+        android:src="@drawable/profilelogin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/purple_200"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:letterSpacing="0.03"/>
+
+    <EditText
+        android:id="@+id/edSigninN"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/forget"
+        android:hint="Name"
+        android:textColorHint="@color/purple_200"
+        />
+    <EditText
+        android:id="@+id/edSigninPas"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/forget"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@color/purple_200"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="35dp"/>
+
+
+    <Button
+        android:id="@+id/signNbtn"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not have an account? Singn Up"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

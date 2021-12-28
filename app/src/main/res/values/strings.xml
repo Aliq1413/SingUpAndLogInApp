@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SingUpAndLogInApp</string>
+    <string name="Sign_Outbt">Sign Out</string>
+    <string name="CheckB">Check</string>
+</resources>
